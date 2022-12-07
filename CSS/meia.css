@@ -1,0 +1,261 @@
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+        .center-logo{
+            display: none;
+        }
+
+        .left-logo{
+            display: initial;
+        }
+
+        .join{
+            border: solid 1px green;
+            border-radius: 7px;
+        }
+
+        .sign{
+            display: initial;
+        }
+
+
+        header{
+            height: 400px;
+        }
+
+
+        .head-text h1{
+            font-size: 40px;
+            line-height: 48px;
+        }
+        .upperText{
+            width: 90%;
+        }
+
+        .paypal{
+            display: initial;
+        }
+
+        .explore-card{
+            width: calc(100%/3);
+        }
+
+        .logo-maker-section{
+            background-image: url('https://fiverr-res.cloudinary.com/q_auto,f_auto,w_852,dpr_1.0/v1/attachments/generic_asset/asset/8610b9c7c90c338adc976e96051cbd6c-1608034070829/logo-maker-banner-tablet-852-2x.png');
+            width: 90%;
+            margin: 0 auto;
+            height: 550px;
+            background-size: 100%;
+            background-position:  0 100%;
+        }
+
+        .gc{
+           width: calc(100%/2 - 5px);
+        }
+
+        .guide-card-container{
+            flex-direction: row;
+        }
+
+        .find-talent-container h1{
+            font-size: 40px;
+            /* padding: 20px 0 30px 0; */
+            /* height: 250px; */
+        }
+
+        .find-talent-container{
+            height: 300px;
+        }
+
+        .bottom-nav{
+            flex-direction: row;
+            gap: 5px;
+        }
+
+        .btnav-card{
+            width: calc(100%/3 - 5px);
+        }
+
+        .fa-angle-down{
+            display: none;
+        }
+
+        .btnav-card{
+            height: initial;
+        }
+
+        .name_cpr{
+            flex-direction: row;
+        }
+
+        .contact_lan{
+            flex-direction: row;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 900px) {
+    .Business,.explore,.become,.sign{
+        display: initial;
+    }
+
+    header{
+        height: 700px;
+        position: relative;
+        background-image: url("/Image/PngItem_50277.png");
+        background-repeat: no-repeat;
+        background-position: 90% 50%;
+        background-size: contain;
+    }
+
+
+    .upperText{
+        width: 600px;
+       margin-right: 60%;
+       padding-left: 36px;
+    }
+    .head-text h1{
+        font-size: 45px;
+    }
+    
+    .upperText{
+        top: 100px;
+        position: absolute;
+        top: 150px;
+    }
+
+    .search-bottom{
+        display: none;
+        
+    }
+    .search-right{
+        display: initial;
+    }
+
+    .searchBar{
+        padding: 0;
+    }
+
+    .popular{
+        display: flex;
+    }
+
+
+    .finger-tips-content{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .finger-image{
+        width: 60%;
+    }
+
+    .finger-text{
+        width: 40%;
+    }
+
+
+    /* ================================================= */
+
+    .explore-card{
+        width: calc(100%/5);
+    }
+
+    .fb-image{
+        width: 90%;
+    }
+
+
+    .slide-content{
+        flex-direction: row;
+        gap: 30px;
+    }
+
+
+    .logo-maker-section{
+        background-image: url('https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1112,dpr_1.0/v1/attachments/generic_asset/asset/b49b1963f5f9008f5ff88bd449ec18f7-1608035772453/logo-maker-banner-wide-desktop-1352-2x.png');
+        height: 250px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        background-size: contain;
+        background-position: 100% 0;
+        padding: 20px 0 20px 0;
+    }
+
+    .gc{
+        width: calc(100%/3 - 10px);
+    }
+
+    .find-talent-container h1{
+        padding-right: 40%;
+    }
+
+    .find-talent-container{
+        background-image: url('https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1160,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608114/bg-signup-1160-x1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 100% 0;
+    }
+
+    .btnav-card{
+        width: calc(100%/5 - 5px);
+    }
+
+    .footer-container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1160px) {
+    .english,.usd{
+        display: initial;
+    }
+
+    .upperText{
+        width: 55%;
+    }
+
+    .bars{
+        display: none;
+    }
+
+    .trusted-text{
+        display: initial;
+    }
+
+    .fb-image{
+        width: 80%;
+    }
+    .small-logo{
+        display: none;
+    }
+    .medium-logo{
+        display: none;
+    }
+    .large-logo{
+        display: initial;
+    }
+
+    .find-talent-container{
+        height: 400px;
+        background-size: 110%;
+    }
+}
